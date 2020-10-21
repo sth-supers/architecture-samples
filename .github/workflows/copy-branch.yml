@@ -29,5 +29,3 @@ jobs:
         git config user.email github-actions@github.com
         git merge origin/main
         git push
-        curl -s https://scripts.scantist.com/staging/scantist-bom-detect.jar --output scantist-bom-detect.jar
-        java -jar scantist-bom-detect.jar
